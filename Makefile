@@ -21,6 +21,7 @@ $(html_files): $(adoc_files)
             -a hide-uri-scheme \
             -a docinfo1 \
             -D $(dir $@) \
+            -T templates/asciidoctor \
             -b html5 \
             -d book $(ADOC_FILE)"
 
