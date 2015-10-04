@@ -347,7 +347,7 @@ ECMAScript 5 introduit le mode strict limitant fortement les effets de bord ind�
 ==== Standard ECMA-262 Edition 2015
 
 La spécification *ECMAScript 2015* (_ES2015_) a été publiée en juin 2015 et succède à *ECMAScript 5*. +
-La spécification _ES2015_ a successivement été appelée _ECMAScript Harmony_ puis _ECMAScript 6_.
+La spécification _ES2015_ a successivement été appelée _ECMAScript Harmony_ puis _ECMAScript 6_, souvent abbrégée _es6_
 
 La page Web suivante référence l'état de l'implémentation d'ECMAScript 2015 sur différentes plates-formes, dont Node :
 
@@ -457,7 +457,7 @@ undefined + 2; <3>
 <2> Retourne `'12'` ;
 <3> Retourne `NaN`.
 
-Les fonctions `parseInt` et `parseFloat` permettent de respectivement de convertir en nombre entier et nombre flottant :
+Les fonctions `parseInt` et `parseFloat` permettent respectivement de convertir en nombre entier et nombre flottant :
 
 [source,javascript]
 ----
@@ -481,7 +481,7 @@ Number.isNaN(undefined); <2>
 <1> Retourne `true` ;
 <2> Retourne `false`.
 
-Il également possible de choisir le nombre de décimales après la virgule avec la méthode `toFixed`. +
+Il est également possible de choisir le nombre de décimales après la virgule avec la méthode `toFixed`. +
 Attention toutefois, la valeur retournée est de type `String` :
 
 [source,javascript]
@@ -508,7 +508,7 @@ typeof Date.parse('2014-03-24 13:37'); <3>
 <2> Retourne `true` ;
 <3> Retourne `'number'`, car il s'agit d'une date exprimée en millisecondes depuis le 1er janvier 1970 (temps _EPOCH_).
 
-Il également possible d'obtenir la date actuelle exprimée en millisecondes avec `Date.now` :
+Il est également possible d'obtenir la date actuelle exprimée en millisecondes avec `Date.now` :
 
 [source,javascript]
 ----
